@@ -1,0 +1,26 @@
+
+ .bb {color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+  
+  .name { font-style: italic}
+  .pos {font-style: bold}
+  
+  th { text-transform: uppercase }
+
+  a { color:#00f; 
+    text-decoration: underline}
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#005;
+    text-decoration: underline
+  }
+  
+  .items {
+    list-style-type: square;
+  }
+  
