@@ -3,8 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
     }
   
-  .name { font-style: italic}
-  .pos {font-style: bold}
+  .name { font-style: italic;
+    /* display: inline; */
+    float: left;
+  }
+  .pos {font-style: bold;
+    clear:left;
+    /*display: inline-block;*/
+    /*vertical-align:bottom*/
+  }
   
   th { text-transform: uppercase }
 
@@ -24,11 +31,21 @@
     list-style-type: square;
   }
   img {
+    height: 100px;
+    width: 100px;
     border-style: solid;
-    border-width: 2px; padding:10px;
-    border-color: #00A4BD
+    border-width: 2px;
+    padding:2px;
+    border-color: #00A4BD;
+    float: right; 
+    margin-top: 0px;  
   }
-  table { background-color:rgb(159, 179, 248)}
+  .dname { border-bottom-style: solid; 
+    border-color: blue;
+    height: 114px }
+  table { background-color:rgb(159, 179, 248);
+    width:100%}
   th {background-color: rgb(10, 119, 235)}
-  div {border-bottom-style: solid; border-color: blue }
+  div {border-bottom-style: solid; 
+      border-color: blue }
   .hire {display:none}
