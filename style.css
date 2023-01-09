@@ -23,4 +23,12 @@
   .items {
     list-style-type: square;
   }
-  
+  img {
+    border-style: solid;
+    border-width: 2px; padding:10px;
+    border-color: #00A4BD
+  }
+  table { background-color:rgb(159, 179, 248)}
+  th {background-color: rgb(10, 119, 235)}
+  div {border-bottom-style: solid; border-color: blue }
+  .hire {display:none}
