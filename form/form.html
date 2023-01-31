@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work with forms</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <h1>Hire me</h1>
+    <h2>Contact information</h2>
+    <table cellspacing="0" cellpadding="10px">
+        <thead>
+            <tr>
+                <th><b>Phone</b></th>
+                <th> +98734686</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Adress</b></td>
+                <td> North Pole 45</td>
+            </tr> 
+        </tbody>
+    </table>
+    <br/>
+    <form action="/forms.html" method="get">
+        <fieldset>
+            <legend>Contact form</legend>
+            <label>
+                E-mail: <span class = "star">*</span>
+                <input 
+                  type="text" 
+                  required
+                  class="email"
+          
+                  minlength="6"
+                  placeholder="Enter email"
+          
+                  name="email" />
+                <p class="error">Please enter correct email</p>
+            </label>
+            
+            <br/>
+            <label>
+                Description:
+                <input 
+                  type="text" 
+                  name="Description" />
+            </label>
+            
+            <br/>
+            <label>
+                Work type:
+                <select 
+                  required
+                  name="Worktype">
+                  <option></option>
+                  <option value="Full time">Full-time</option>
+                  <option value="Remote">Remote</option>
+                  <option value="Project">Project</option>
+                </select>
+            </label>
+            
+            <br/>
+            <input type="submit" class = "mm" value="Hire me" />
+
+
+
+        </fieldset>
+
+
+
+
+
+
+    </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
